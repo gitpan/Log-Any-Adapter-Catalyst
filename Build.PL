@@ -14,10 +14,10 @@ my $build = Module::Build->new(
         'Test::More'     => 0.87,
         'File::Basename' => 0,
         'File::Spec'     => 0,
+        'Catalyst::Log'  => 0,
     },
     configure_requires => { 'Module::Build' => '0.36', },
-
-    meta_merge => {
+    meta_merge         => {
         resources => {
             bugtracker =>
               'http://rt.cpan.org/NoAuth/Bugs.html?Dist=Log-Any-Adapter-Catalyst',

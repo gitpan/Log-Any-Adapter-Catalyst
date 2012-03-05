@@ -5,7 +5,7 @@ use warnings;
 use Carp;
 use base qw(Log::Any::Adapter::Base);
 
-our $VERSION = '0.10';
+our $VERSION = '0.11';
 
 sub init {
     my ($self) = @_;
