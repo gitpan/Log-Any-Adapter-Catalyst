@@ -2,6 +2,9 @@ NAME
     Log::Any::Adapter::Catalyst - Enable error and status logging in
     Catalyst Models via Log::Any
 
+VERSION
+    version 1.00
+
 SYNOPSIS
     In a Catalyst Model, View, etc (anywhere you don't have $c):
 
@@ -37,11 +40,11 @@ SEE ALSO
     Log::Any, Log::Any::Adapter, Catalyst, Catalyst::Log
 
 AUTHOR
-    Mark Grimes
+    Mark Grimes, <mgrimes@cpan.org>
 
-COPYRIGHT & LICENSE
-    Copyright (C) 2011 Mark Grimes, all rights reserved.
+COPYRIGHT AND LICENSE
+    This software is copyright (c) 2014 by Mark Grimes, <mgrimes@cpan.org>.
 
-    This program is free software; you can redistribute it and/or modify it
-    under the same terms as Perl itself.
+    This is free software; you can redistribute it and/or modify it under
+    the same terms as the Perl 5 programming language system itself.
 

@@ -2,8 +2,6 @@ Build.PL
 Changes
 lib/Log/Any/Adapter/Catalyst.pm
 MANIFEST			This list of files
-META.json
-META.yml
 README
 t/00-load.t
 t/basic.t
@@ -12,3 +10,5 @@ xt/96-kwalitee.t
 xt/97-critic.t
 xt/98-pod.t
 xt/perlcriticrc
+META.yml
+META.json
